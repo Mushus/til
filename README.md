@@ -15,4 +15,4 @@ Today I Learned
 
 ### Infra
 
-* [Akamaiにはキャッシュが２つあるっぽい](akamai_two_cache.md)
+* [Akamaiにはキャッシュが２つあるっぽい](infra/akamai_two_cache.md)
