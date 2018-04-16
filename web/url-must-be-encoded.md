@@ -33,6 +33,6 @@ AddDefaultCharset UTF-8
 **【追記】**
 
 エスケープされた `&` がURLに含まれていたらダメっぽいです。。。  
-[RewriteRule Flags - Apache HTTP Server Version 2.4](http://httpd.apache.org/docs/current/rewrite/flags.html#flag_b)
+[RewriteRule Flags - Apache HTTP Server Version 2.4](http://httpd.apache.org/docs/current/rewrite/flags.html#flag_b)  
 Bフラグを付けることで解決しそうです。
 
