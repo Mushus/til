@@ -13,6 +13,12 @@ Today I Learned
 
 * [URLに日本語を含んでもいいがエンコードしよう](web/url-must-be-encoded.md)
 
+### PHP
+
+#### Laravel
+
+* [S3からストリーミングでファイルを配信する](php/laravel/stream-from-s3.md)
+
 ### Infra
 
 * [Akamaiにはキャッシュが２つあるっぽい](infra/akamai_two_cache.md)
