@@ -10,6 +10,7 @@ Today I Learned
 * [Github](#)
 * [PHP](#php)
 * [Web](#web)
+* [Windows](#windows)
 
 ### Github
 
@@ -27,3 +28,7 @@ Today I Learned
 ### PHP
 
 * [Laravel - S3からストリーミングでファイルを配信する](php/laravel-stream-from-s3.md)
+
+### Windows
+
+* [WSL bash の beep を止める](windows/stop-bash-beep.md)
