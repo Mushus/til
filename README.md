@@ -6,29 +6,33 @@ Today I Learned
 
 ## Category
 
-* [Infra](#infra)
-* [Github](#)
-* [PHP](#php)
-* [Web](#web)
-* [Windows](#windows)
+- [infra](#infra)
+- [web](#web)
+- [php](#php)
+- [github](#github)
+- [windows](#windows)
 
-### Github
-
-* [Github Pages へ travis でデプロイ](github/ghp-deploy.md)
-
-### Web
-
-* [URLに日本語を含んでもいいがエンコードしよう](web/url-must-be-encoded.md)
+## Index
 
 ### Infra
 
-* [Akamaiにはキャッシュが２つあるっぽい](infra/akamai_two_cache.md)
-* [AWS CodeBuild で SSH ログインする](infra/aws_codebuild_parameter_store.md)
+- [Akamaiにはキャッシュが２つあるっぽい](infra/akamai_two_cache.md)
+- [AWS CodeBuild で SSH ログインする](infra/aws_codebuild_parameter_store.md)
 
-### PHP
+### Web
 
-* [Laravel - S3からストリーミングでファイルを配信する](php/laravel-stream-from-s3.md)
+- [URLに日本語を含んでもいいがエンコードしよう](web/url-must-be-encoded.md)
+
+### Php
+
+- [Laravel - S3からストリーミングでファイルを配信する](php/laravel-stream-from-s3.md)
+
+### Github
+
+- [Github Pages へ travis でデプロイ](github/ghp-deploy.md)
 
 ### Windows
 
-* [WSL bash の beep を止める](windows/stop-bash-beep.md)
+- [WSL bash の beep を止める](windows/stop-bash-beep.md)
+
+## その他
