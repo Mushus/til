@@ -6,6 +6,7 @@ Today I Learned
 
 ## Category
 
+- [middleware](#middleware)
 - [infra](#infra)
 - [web](#web)
 - [php](#php)
@@ -13,6 +14,10 @@ Today I Learned
 - [windows](#windows)
 
 ## Index
+
+### Middleware
+
+- [cassandra をローカルで動かすまで(WIP)](middleware/cassandra-in-local.md)
 
 ### Infra
 
