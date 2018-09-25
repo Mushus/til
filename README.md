@@ -8,6 +8,7 @@ Today I Learned
 
 - [middleware](#middleware)
 - [infra](#infra)
+- [python](#python)
 - [web](#web)
 - [php](#php)
 - [github](#github)
@@ -17,12 +18,16 @@ Today I Learned
 
 ### Middleware
 
-- [cassandra をローカルで動かすまで(WIP)](middleware/cassandra-in-local.md)
+- [cassandra をローカルで動かすまで(仮)](middleware/cassandra-in-local.md)
 
 ### Infra
 
 - [Akamaiにはキャッシュが２つあるっぽい](infra/akamai_two_cache.md)
 - [AWS CodeBuild で SSH ログインする](infra/aws_codebuild_parameter_store.md)
+
+### Python
+
+- [pythonの環境構築](python/create-env.md)
 
 ### Web
 

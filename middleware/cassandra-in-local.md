@@ -1,4 +1,4 @@
-# cassandra をローカルで動かすまで(WIP)
+# cassandra をローカルで動かすまで(仮)
 
 環境: MacOS 10.13.6
 
