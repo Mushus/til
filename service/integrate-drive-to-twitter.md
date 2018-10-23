@@ -14,6 +14,8 @@
 
 ## アーキテクチャ
 
+![アーキテクチャの図](integrate-drive-to-twitter-1.png)
+
 1. ファイルの保存場所はバックアップも兼ねて [Google Drive](https://www.google.com/intl/ja_ALL/drive/download/) で行います。
 1. ファイルの変更をトリガーとして [IFTTT](https://ifttt.com/) のアプレットを実行します。
 1. アプレットから [Twitter](https://twitter.com/) へ投稿を行います。
