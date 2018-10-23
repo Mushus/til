@@ -6,40 +6,45 @@ Today I Learned
 
 ## Category
 
-- [middleware](#middleware)
-- [infra](#infra)
-- [python](#python)
-- [web](#web)
-- [php](#php)
 - [github](#github)
+- [infra](#infra)
+- [middleware](#middleware)
+- [php](#php)
+- [python](#python)
+- [service](#service)
+- [web](#web)
 - [windows](#windows)
 
 ## Index
 
-### Middleware
+### Github
 
-- [cassandra をローカルで動かすまで(仮)](middleware/cassandra-in-local.md)
+- [Github Pages へ travis でデプロイ](github/ghp-deploy.md)
 
 ### Infra
 
 - [Akamaiにはキャッシュが２つあるっぽい](infra/akamai_two_cache.md)
 - [AWS CodeBuild で SSH ログインする](infra/aws_codebuild_parameter_store.md)
 
-### Python
+### Middleware
 
-- [pythonの環境構築](python/create-env.md)
-
-### Web
-
-- [URLに日本語を含んでもいいがエンコードしよう](web/url-must-be-encoded.md)
+- [cassandra をローカルで動かすまで(仮)](middleware/cassandra-in-local.md)
 
 ### Php
 
 - [Laravel - S3からストリーミングでファイルを配信する](php/laravel-stream-from-s3.md)
 
-### Github
+### Python
 
-- [Github Pages へ travis でデプロイ](github/ghp-deploy.md)
+- [pythonの環境構築](python/create-env.md)
+
+### Service
+
+- [画像を保存したら勝手に Twitter にアップロードされるようにする](service/integrate-drive-to-twitter.md)
+
+### Web
+
+- [URLに日本語を含んでもいいがエンコードしよう](web/url-must-be-encoded.md)
 
 ### Windows
 
