@@ -6,3 +6,9 @@ Today I Learned
 
 <!-- autogenerate -->
 ## その他
+
+### 記事を書きやすくする
+
+```
+cp .script/pre-commit .git/hooks/pre-commit
+```

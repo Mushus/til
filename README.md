@@ -6,48 +6,61 @@ Today I Learned
 
 ## Category
 
-- [github](#github)
-- [infra](#infra)
 - [middleware](#middleware)
-- [php](#php)
+- [infra](#infra)
 - [python](#python)
-- [service](#service)
 - [web](#web)
+- [typescript](#typescript)
+- [php](#php)
+- [github](#github)
+- [service](#service)
 - [windows](#windows)
 
 ## Index
 
-### Github
+### Middleware
 
-- [Github Pages へ travis でデプロイ](github/ghp-deploy.md)
+- [cassandra をローカルで動かすまで(仮)](middleware/cassandra-in-local.md)
 
 ### Infra
 
 - [Akamaiにはキャッシュが２つあるっぽい](infra/akamai_two_cache.md)
 - [AWS CodeBuild で SSH ログインする](infra/aws_codebuild_parameter_store.md)
 
-### Middleware
+### Python
 
-- [cassandra をローカルで動かすまで(仮)](middleware/cassandra-in-local.md)
+- [pythonの環境構築](python/create-env.md)
+
+### Web
+
+- [URLに日本語を含んでもいいがエンコードしよう](web/url-must-be-encoded.md)
+
+### Typescript
+
+- [clasp](typescript/clasp.md)
 
 ### Php
 
 - [Laravel - S3からストリーミングでファイルを配信する](php/laravel-stream-from-s3.md)
 
-### Python
+### Github
 
-- [pythonの環境構築](python/create-env.md)
+- [Github Pages へ travis でデプロイ](github/ghp-deploy.md)
 
 ### Service
 
+- [�PNG
+](service/integrate-drive-to-twitter-1.png)
 - [画像を保存したら勝手に Twitter にアップロードされるようにする](service/integrate-drive-to-twitter.md)
-
-### Web
-
-- [URLに日本語を含んでもいいがエンコードしよう](web/url-must-be-encoded.md)
 
 ### Windows
 
 - [WSL bash の beep を止める](windows/stop-bash-beep.md)
 
 ## その他
+
+### 記事を書きやすくする
+
+```
+cp .script/pre-commit .git/hooks/pre-commit
+```
