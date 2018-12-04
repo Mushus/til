@@ -1,6 +1,10 @@
 use strict;
 use warnings;
 use utf8;
+use File::Basename;
+
+binmode(STDOUT, ":utf8");
+binmode(STDIN, ":utf8");
 
 my $template = "./README.template.md";
 my $output = "./README.md";
@@ -36,7 +40,8 @@ while (<IN>) {
             closedir(DIR);
             my $child_file;
             foreach $child_file (@chlid_list) {
-                if ($child_file =~ ('\A' . quotemeta(".")) or -d $child_file) {
+                my ($basename, $dirname, $ext) = fileparse($child_file, ".md");
+                if ($child_file =~ ('\A' . quotemeta(".")) or -d $child_file or $ext ne ".md") {
                     next;
                 }
                 open(MD, "$file/$child_file");

@@ -49,8 +49,6 @@ Today I Learned
 
 ### Service
 
-- [�PNG
-](service/integrate-drive-to-twitter-1.png)
 - [画像を保存したら勝手に Twitter にアップロードされるようにする](service/integrate-drive-to-twitter.md)
 
 ### Windows
