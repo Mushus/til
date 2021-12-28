@@ -11,11 +11,17 @@
 </head>
 <body>
   <div id="app"></div>
+  <!-- Edit on github -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script>
     window.$docsify = {
       name: 'Today I Learned',
       repo: 'Mushus/til',
-      loadSidebar: true
+      loadSidebar: true,
+      namespace: 'til',
+      plugins: [
+        EditOnGithubPlugin.create('https://github.com/Mushus/til/blob/master/docs/', '', '📝 Edit on GitHub')
+      ]
     }
   </script>
   <!-- Docsify v4 -->
@@ -26,22 +32,18 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <!-- Zoom image -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <!-- Edit on github -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <!-- Copy to Clipboard -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <!-- Pagination -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <!-- count -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
   <!-- Language highlighting -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-typescript.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-go.min.js"></script>
   <!-- mermaid.js -->
-  <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js">
+  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-mermaid/dist/docsify-mermaid.js">
   <script>mermaid.initialize({ startOnLoad: true });</script>
 </body>
 </html>

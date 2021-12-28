@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "Today I Learned",
   "scripts": {
-    "serve": "docsify serve ./",
-    "generate": "rm docs/_sidebar.md && docsify generate ./",
+    "serve": "docsify serve ./docs",
+    "generate": "rm -f docs/_sidebar.md && docsify generate ./docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
