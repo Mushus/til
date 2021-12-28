@@ -27,6 +27,6 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           author_name: Github Actions
-          author_email: 6138982+Mushus@users.noreply.github.com
+          author_email: noreply@github.com
           message: "update _sidebar.md"
           add: "*.md"
