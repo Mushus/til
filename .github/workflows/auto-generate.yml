@@ -1,0 +1,32 @@
+name: auto generate
+on:
+  push:
+    paths:
+      - "docs/*/**.md"
+
+jobs:
+  run:
+    name: Lint with ESLint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 17.x
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update source code
+        run: npm run generate
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Github Actions
+          author_email: 6138982+Mushus@users.noreply.github.com
+          message: "update _sidebar.md"
+          add: "*.md"

@@ -1,4 +1,0 @@
-#!/bin/sh
-
-perl .script/make_index.pl
-git add README.md

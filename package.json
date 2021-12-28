@@ -1,0 +1,23 @@
+{
+  "name": "til",
+  "version": "0.0.0",
+  "description": "Today I Learned",
+  "scripts": {
+    "serve": "docsify serve ./",
+    "generate": "rm docs/_sidebar.md && docsify generate ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mushus/til.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mushus/til/issues"
+  },
+  "homepage": "https://github.com/Mushus/til#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.3"
+  }
+}
